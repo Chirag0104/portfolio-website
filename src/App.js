@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Intro from './components/intro'
 import About from './components/About'
 import Skills from './components/Skills'
-import Project from './components/Projects'
+import Projects from './components/Projects'
 import Contact from './components/Contact'
 import SideNav from './components/Sidenav'
 
@@ -19,7 +19,7 @@ function App() {
       <Intro />
       <About  />
       <Skills />
-      <Project />
+      <Projects />
       <Contact />
 
 

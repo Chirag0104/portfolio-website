@@ -23,8 +23,8 @@ export default function Projects() {
                     <img src={srms} className="card-img project-image" alt="..." />
                     <div className="demo">
                         <div className="hover-text">Student Result Management System</div>
-                        <a target="_blank" href="https://srms-chirag.000webhostapp.com/"><button className = "project-button btn btn-light">Demo</button></a>
-                        <a target="_blank" href="https://github.com/Chirag0104/Student-Result-Management-System"><button className = "project-button btn btn-light">Code</button></a>
+                        <a href="https://srms-chirag.000webhostapp.com/" target="_SEJ" rel="noreferrer"><button className = "project-button btn btn-light">Demo</button></a>
+                        <a target="_SEJ" rel="noreferrer" href="https://github.com/Chirag0104/Student-Result-Management-System"><button className = "project-button btn btn-light">Code</button></a>
                     </div>
                 </div>
 
@@ -32,8 +32,8 @@ export default function Projects() {
                     <img src={zippy} className="card-img project-image" alt="..." />
                     <div className="demo">
                         <div className="hover-text">Zippy</div>
-                        <a target='_blank' href='https://chirag0104.github.io/LGMVIP-WEB/'><button className = "project-button btn btn-light">Demo</button></a>
-                        <a target='_blank' href='https://github.com/Chirag0104/LGMVIP-WEB'><button className = "project-button btn btn-light">Code</button></a>
+                        <a target="_SEJ" rel="noreferrer" href='https://chirag0104.github.io/LGMVIP-WEB/'><button className = "project-button btn btn-light">Demo</button></a>
+                        <a target="_SEJ" rel="noreferrer" href='https://github.com/Chirag0104/LGMVIP-WEB'><button className = "project-button btn btn-light">Code</button></a>
                     </div>
                 </div>
 
@@ -41,8 +41,8 @@ export default function Projects() {
                     <img src={textUtils} className="card-img project-image" alt="..." />
                     <div className="demo">
                         <div className="hover-text">Text Utils</div>
-                        <a target='_blank' href='https://chirag0104.github.io/TextUtils/'><button className = "project-button btn btn-light">Demo</button></a>
-                        <a target='_blank' href='https://github.com/Chirag0104/TextUtils'><button className = "project-button btn btn-light">Code</button></a>
+                        <a target="_SEJ" rel="noreferrer" href='https://chirag0104.github.io/TextUtils/'><button className = "project-button btn btn-light">Demo</button></a>
+                        <a target="_SEJ" rel="noreferrer" href='https://github.com/Chirag0104/TextUtils'><button className = "project-button btn btn-light">Code</button></a>
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@ export default function Projects() {
                     <div className="demo">
                         <div className="hover-text">Covid-19 Relief Foundation</div>
                         <a target='blank' href='https://chirag0104.github.io/Payment_Gateway_Integration-TSF/'><button className = "project-button btn btn-light">Demo</button></a>
-                        <a target='_blank' href='https://github.com/Chirag0104/Payment_Gateway_Integration-TSF'><button className = "project-button btn btn-light">Code</button></a>
+                        <a target="_SEJ" rel="noreferrer" href='https://github.com/Chirag0104/Payment_Gateway_Integration-TSF'><button className = "project-button btn btn-light">Code</button></a>
                     </div>
                 </div>
 
@@ -59,8 +59,8 @@ export default function Projects() {
                     <img src={jira} className="card-img project-image" alt="..." />
                     <div className="demo">
                         <div className="hover-text">Jira Ticket Manager</div>
-                        <a target='_blank' href='https://chirag0104.github.io/jira-ticket/'><button className = "project-button btn btn-light">Demo</button></a>
-                        <a target='_blank' href='https://github.com/Chirag0104/jira-ticket'><button className = "project-button btn btn-light">Code</button></a>
+                        <a target="_SEJ" rel="noreferrer" href='https://chirag0104.github.io/jira-ticket/'><button className = "project-button btn btn-light">Demo</button></a>
+                        <a target="_SEJ" rel="noreferrer" href='https://github.com/Chirag0104/jira-ticket'><button className = "project-button btn btn-light">Code</button></a>
                     </div>
                 </div>
 
@@ -68,8 +68,8 @@ export default function Projects() {
                     <img src={excel} className="card-img project-image" alt="..." />
                     <div className="demo">
                             <div className="hover-text">Excel Clone</div>
-                        <a target='_blank' href='https://chirag0104.github.io/excel-clone/'><button className = "project-button btn btn-light">Demo</button></a>
-                        <a target='_blank' href='https://github.com/Chirag0104/excel-clone'><button className = "project-button btn btn-light">Code</button></a>
+                        <a target="_SEJ" rel="noreferrer" href='https://chirag0104.github.io/excel-clone/'><button className = "project-button btn btn-light">Demo</button></a>
+                        <a target="_SEJ" rel="noreferrer" href='https://github.com/Chirag0104/excel-clone'><button className = "project-button btn btn-light">Code</button></a>
                     </div>
                 </div>
 
