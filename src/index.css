@@ -1,13 +1,373 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+.text-\[\#7ae0ff\] {
+    --tw-text-opacity: 1;
+    color: rgb(122 224 255/var(--tw-text-opacity));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.intro{
+    /* border:2px solid black; */
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    margin-top: 13%;
+    margin-left: 20%;
+    
+    
 }
+
+.sub-heading{
+    color:rgb(122 224 255) ;
+    font-size: 1.5rem;
+    
+    
+}
+
+.main-heading{
+    font-size: 4rem;
+    line-height: 4.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.intro-button{
+    border-radius: 0rem;
+    margin-top: 5%;
+    height: 3rem;
+    width: 8rem;
+}
+
+.sub-heading-2{
+    /* color: white; */
+    margin-top: 1rem;
+    /* color: rgb(209 213 219); */
+    color: rgb(136 146 176);
+}
+
+.about-container{
+    /* border: 2px solid white; */
+    width: 75%;
+    height: 42rem;
+    color: white;
+    margin: auto;
+    margin-top: 5rem;
+    position: relative;
+    /* border: 2px solid black; */
+    
+    
+}
+
+.about-heading{
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-top: 10%;
+    color: rgb(209 213 219);
+}
+
+.about-underline{
+    text-decoration-color: rgb(122 224 255);
+}
+
+.about-left-content{
+    font-weight: 700;
+    font-size: 2.25rem;
+    /* border: 2px solid black; */
+    width: 100%;
+    text-align: right;
+    line-height: 2.8rem;
+    color: rgb(209 213 219);
+}
+
+.about-right-content{
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-top: 0.8rem;
+    text-align: left;
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
+    color: rgb(209 213 219);
+}
+
+.about-content{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+
+.child-container{
+    position: absolute;
+    top: 20%;
+}
+
+.skills-cards{
+    background-color:rgb(10 25 47);
+    color:white;
+    color: rgb(209 213 219);
+    /* border: 2px solid white; */
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-evenly;
+    
+}
+
+.card-style{
+    background-color:rgb(10 25 47);
+    color: white;
+    /* border: 2px solid black; */
+    width: 22%;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* margin: auto; */
+    border-radius: 0px;
+    height: 11rem;
+    
+}
+
+.card-style:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transform: scale(1.1) ; 
+    transition: 0.6s;
+    
+}
+
+.skills-container{
+    /* border: 1px solid white; */
+    width: 90%;
+    height: 40rem;
+    margin: auto;
+    /* color: white; */
+    position: relative;
+    margin-top: 2rem;
+    color: rgb(209 213 219);
+}
+
+.skills-image{
+    height: 5rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.skills-heading{
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    /* border: 2px solid black; */
+    margin-left: 10%;
+    text-align: left;
+    margin-top: -5%;
+}
+
+.skills-sub-heading{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.child-container-2{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+
+.project-underline{
+    text-decoration-color: rgb(122 224 255);
+}
+
+.project-container{
+    /* color: white; */
+    /* border: 2px solid white; */
+    margin:auto;
+    width: 75%;
+    height: 40rem;
+    /* border: 2px solid white; */
+    color: rgb(209 213 219);
+    
+}
+
+.project-heading{
+    text-align: left;
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.project-sub-heading{
+    text-align: left;
+    margin-top: 1%;
+}
+
+.project-image{
+    width: 100%;
+    height: 100%;
+}
+
+.project-cards{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-card-style{
+    /* border: 2px solid white; */
+    width: 25%;
+    margin: 1.5%;
+    height: 14rem;
+    
+}
+
+.demo{
+    background-color: #2e0d8863;
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    transform:  scale(1, 1.1);
+    
+}
+
+.project-card-style:hover .demo{
+    cursor: pointer;
+    opacity: 1;
+    transform:  scale(1);
+}
+.project-card-style:hover .project-image{
+    
+    opacity: 0;
+
+}
+
+.project-button{
+    border-radius: 0px;
+    margin: 5%;
+    margin-top: 10%;
+}
+
+.hover-text{
+    font-size: 1.5rem;
+    margin-top: 15%;
+}
+
+
+.contact-container{
+    width: 40%;
+    /* border: 2px solid white; */
+    margin: auto;
+    color: white;
+    margin-top: 10%;
+}
+
+.contact-heading{
+    text-align: left;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: rgb(209 213 219);
+}
+
+.contact-sub-heading{
+    text-align: left;
+    margin-top: 1%;
+    color: rgb(209 213 219);
+    
+}
+
+.contact-underline{
+    text-decoration-color: rgb(122 224 255);
+}
+
+.form-control{
+    border-radius: 0px;
+    background-color: rgb(209 213 219);
+}
+
+.form-container{
+    margin-top: 8%;
+}
+
+.contact-button{
+    border-radius: 0rem;
+    margin-top: 5%;
+    height: 3rem;
+    width: 12rem;
+    margin-bottom: 5rem;
+}
+
+.head-2{
+    color: rgb(136 146 176);
+}
+
+.nav-item{
+    width: 6rem;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link:visited{
+    color:rgb(122 224 255) ;
+}
+
+.sidenav-container{
+    position: relative;
+}
+.child-sidenav{
+    margin-top: 3rem;
+    position: fixed;
+    /* border: 2px solid white; */
+    height: 15rem;
+    width: 10rem;
+    margin-left: -6.4rem;
+    text-align: right;
+
+}
+
+.sidenav-component{
+    /* border: 2px solid white; */
+    height: 25%;
+}
+
+.sidenav-component:hover{
+    width: 16.4rem;
+    margin-left: 0rem;
+    color: rgb(209 213 219);
+    font-size: 1.2rem;
+    
+}
+
+.lin{
+    background-color: rgb(7 94 242);
+    padding-top: 10px;
+}
+
+.gi{
+    background-color:  rgb(51 51 51);
+    padding-top: 10px;
+
+}
+
+.em{
+    background-color:  rgb(111 194 176);
+    padding-top: 10px;
+
+}
+
+.re{
+    background-color:  rgb(86 95 105);
+    padding-top: 10px;
+
+}
+
+.sidenav-link{
+    text-decoration: none;
+}
+
