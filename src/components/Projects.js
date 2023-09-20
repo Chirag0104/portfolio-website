@@ -19,8 +19,8 @@ export default function Projects() {
             </div>
             <div className="project-cards">
 
-                <div class="card text-bg-dark project-card-style">
-                    <img src={srms} class="card-img project-image" alt="..." />
+                <div className="card text-bg-dark project-card-style">
+                    <img src={srms} className="card-img project-image" alt="..." />
                     <div className="demo">
                         <div className="hover-text">Student Result Management System</div>
                         <a target="_blank" href="https://srms-chirag.000webhostapp.com/"><button className = "project-button btn btn-light">Demo</button></a>
@@ -28,8 +28,8 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div class="card text-bg-dark project-card-style">
-                    <img src={zippy} class="card-img project-image" alt="..." />
+                <div className="card text-bg-dark project-card-style">
+                    <img src={zippy} className="card-img project-image" alt="..." />
                     <div className="demo">
                         <div className="hover-text">Zippy</div>
                         <a target='_blank' href='https://chirag0104.github.io/LGMVIP-WEB/'><button className = "project-button btn btn-light">Demo</button></a>
@@ -37,8 +37,8 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div class="card text-bg-dark project-card-style">
-                    <img src={textUtils} class="card-img project-image" alt="..." />
+                <div className="card text-bg-dark project-card-style">
+                    <img src={textUtils} className="card-img project-image" alt="..." />
                     <div className="demo">
                         <div className="hover-text">Text Utils</div>
                         <a target='_blank' href='https://chirag0104.github.io/TextUtils/'><button className = "project-button btn btn-light">Demo</button></a>
@@ -46,8 +46,8 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div class="card text-bg-dark project-card-style">
-                    <img src={covid} class="card-img project-image" alt="..." />
+                <div className="card text-bg-dark project-card-style">
+                    <img src={covid} className="card-img project-image" alt="..." />
                     <div className="demo">
                         <div className="hover-text">Covid-19 Relief Foundation</div>
                         <a target='blank' href='https://chirag0104.github.io/Payment_Gateway_Integration-TSF/'><button className = "project-button btn btn-light">Demo</button></a>
@@ -55,8 +55,8 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div class="card text-bg-dark project-card-style">
-                    <img src={jira} class="card-img project-image" alt="..." />
+                <div className="card text-bg-dark project-card-style">
+                    <img src={jira} className="card-img project-image" alt="..." />
                     <div className="demo">
                         <div className="hover-text">Jira Ticket Manager</div>
                         <a target='_blank' href='https://chirag0104.github.io/jira-ticket/'><button className = "project-button btn btn-light">Demo</button></a>
@@ -64,8 +64,8 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div class="card text-bg-dark project-card-style">
-                    <img src={excel} class="card-img project-image" alt="..." />
+                <div className="card text-bg-dark project-card-style">
+                    <img src={excel} className="card-img project-image" alt="..." />
                     <div className="demo">
                             <div className="hover-text">Excel Clone</div>
                         <a target='_blank' href='https://chirag0104.github.io/excel-clone/'><button className = "project-button btn btn-light">Demo</button></a>
